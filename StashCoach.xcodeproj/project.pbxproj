@@ -103,7 +103,7 @@
 		BE4ADC4E2210D21E00E07B23 /* AchievementsTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsTestHelpers.swift; sourceTree = "<group>"; };
 		BE4ADC502210D5AE00E07B23 /* AchievementsViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsViewTests.swift; sourceTree = "<group>"; };
 		BE4ADC522210D5BB00E07B23 /* AchievementsWireframeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsWireframeTests.swift; sourceTree = "<group>"; };
-		BE4ADC552210DBFD00E07B23 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		BE4ADC552210DBFD00E07B23 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F0F31E721053625BF469558C /* Pods-StashCoach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StashCoach.release.xcconfig"; path = "Target Support Files/Pods-StashCoach/Pods-StashCoach.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
