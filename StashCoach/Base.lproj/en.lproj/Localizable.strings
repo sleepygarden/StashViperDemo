@@ -23,3 +23,6 @@
 
 /* A word indicating confirmation */
 "OK" = "OK";
+
+/* A phrase for assistive VoiceOver to explain: a achievements position in a list of achievements, the total amount of achievements in the list, the achievements level, current progress points on the achievement, and the total points needed for the achievement, in that order */
+"Achievement number %@ of %@. Level %@. Progress %@ out of %@.";

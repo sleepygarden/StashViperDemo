@@ -65,7 +65,7 @@ final class AchievementTableViewCell: UITableViewCell {
         setupBackgroundView()
         setupCenterCircle()
         setupProgressBar()
-        setupPointsLabels()
+        setupPointsLabels()        
     }
     
     func setupBackgroundView() {

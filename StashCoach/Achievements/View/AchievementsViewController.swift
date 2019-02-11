@@ -174,6 +174,9 @@ final class AchievementsViewController: UIViewController, AchievementsView, UITa
             assertionFailure("Achievement not found at index \(indexPath.row) among \(achievements.count)")
             return cell
         }
+        let accessibilityTemplate = NSLocalizedString("Achievement number %@ of %@. Level %@. Progress %@ out of %@.", comment: "A phrase for assistive VoiceOver to explain: a achievements position in a list of achievements, the total amount of achievements in the list, the achievements level, current progress points on the achievement, and the total points needed for the achievement, in that order")
+        
+        cell.accessibilityLabel = String(format: accessibilityTemplate, "\(indexPath.row + 1)", "\(achievements.count)", achievement.level, "\(achievement.progress)", "\(achievement.total)")
         cell.update(level: achievement.level, achievementPointsProgress: achievement.progress, totalPoints: achievement.total, imageURL: achievement.bgImageURL, placeholderColorIndex: indexPath.row)
         return cell
     }
