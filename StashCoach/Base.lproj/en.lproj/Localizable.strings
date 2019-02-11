@@ -16,7 +16,7 @@
 "We couldn't get any achievements! Please try again." = "We couldn't get any achievements! Please try again.";
 
 /* A shortend word for points trailing a number, ex: 10 pts */
-"pts" = "ptsENGLISH";
+"pts" = "pts";
 
 /* The title of an achievement's level number */
 "Level" = "Level";
