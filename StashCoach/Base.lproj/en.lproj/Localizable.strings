@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  StashCoach
+
+  Created by Michael Cornell on 2/10/19.
+  Copyright © 2019 Michael Cornell. All rights reserved.
+*/
+
+/* A title for an unavailable feature */
+"Feature Unavailable" = "Feature Unavailable";
+
+/* An explaination that a feature is unavailble in the current version of the app */
+"This feature is unavailable in this version of StashCoach" = "This feature is unavailable in this version of StashCoach";
+
+/* A message to tell a user that an operation to fetch their achievements failed. */
+"We couldn't get any achievements! Please try again." = "We couldn't get any achievements! Please try again.";
+
+/* A shortend word for points trailing a number, ex: 10 pts */
+"pts" = "ptsENGLISH";
+
+/* The title of an achievement's level number */
+"Level" = "Level";
+
+/* A word indicating confirmation */
+"OK" = "OK";

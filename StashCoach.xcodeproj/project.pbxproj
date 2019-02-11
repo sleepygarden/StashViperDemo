@@ -7,12 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6632C13DD64B987D99781B73 /* Pods_StashCoachTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C72E03D774981A49410899C /* Pods_StashCoachTests.framework */; };
+		BE3732EB2210F7D2001505A2 /* achievements.json in Resources */ = {isa = PBXBuildFile; fileRef = BE3732EA2210F7D2001505A2 /* achievements.json */; };
+		BE3732ED22110DF8001505A2 /* UnfinishedFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3732EC22110DF8001505A2 /* UnfinishedFeatureViewController.swift */; };
+		BE3732F622111BDD001505A2 /* AchievementsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3732F522111BDD001505A2 /* AchievementsInteractorTests.swift */; };
+		BE3732F722111DAC001505A2 /* achievements.json in Resources */ = {isa = PBXBuildFile; fileRef = BE3732EA2210F7D2001505A2 /* achievements.json */; };
+		BE3732F922111E02001505A2 /* AchievementsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3732F822111E02001505A2 /* AchievementsPresenterTests.swift */; };
+		BE3732FD22112A89001505A2 /* UIImage+ColorGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3732FC22112A89001505A2 /* UIImage+ColorGen.swift */; };
+		BE37330222113526001505A2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE37330422113526001505A2 /* Localizable.strings */; };
 		BE4463EF220A5C9000A1CB2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4463EE220A5C9000A1CB2E /* AppDelegate.swift */; };
-		BE4463F1220A5C9000A1CB2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4463F0220A5C9000A1CB2E /* ViewController.swift */; };
-		BE4463F4220A5C9000A1CB2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4463F2220A5C9000A1CB2E /* Main.storyboard */; };
 		BE4463F6220A5C9100A1CB2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4463F5220A5C9100A1CB2E /* Assets.xcassets */; };
 		BE4463F9220A5C9100A1CB2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4463F7220A5C9100A1CB2E /* LaunchScreen.storyboard */; };
-		BE446404220A5C9100A1CB2E /* StashCoachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE446403220A5C9100A1CB2E /* StashCoachTests.swift */; };
+		BE446410220A601500A1CB2E /* STSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE44640F220A601500A1CB2E /* STSession.swift */; };
+		BE446412220A606700A1CB2E /* STSession+URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE446411220A606700A1CB2E /* STSession+URLSession.swift */; };
+		BE446414220A620900A1CB2E /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE446413220A620900A1CB2E /* RequestBuilder.swift */; };
+		BE446416220A7D2A00A1CB2E /* ResponseProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE446415220A7D2A00A1CB2E /* ResponseProcessor.swift */; };
+		BE446418220A7E2800A1CB2E /* FileSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE446417220A7E2800A1CB2E /* FileSession.swift */; };
+		BE44641D220A80A000A1CB2E /* RequestBuilder+Achievements.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE44641C220A80A000A1CB2E /* RequestBuilder+Achievements.swift */; };
+		BE44641F220A81D900A1CB2E /* AchievementsResponseProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE44641E220A81D900A1CB2E /* AchievementsResponseProcessor.swift */; };
+		BE446421220A8E5F00A1CB2E /* RequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE446420220A8E5F00A1CB2E /* RequestBuilderTests.swift */; };
+		BE446425220A922A00A1CB2E /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE446424220A922A00A1CB2E /* Achievement.swift */; };
+		BE446427220B193400A1CB2E /* AchievementResponseProcessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE446426220B193400A1CB2E /* AchievementResponseProcessorTests.swift */; };
+		BE446429220BC01100A1CB2E /* AchievementsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE446428220BC01100A1CB2E /* AchievementsWireframe.swift */; };
+		BE44642B220BC17D00A1CB2E /* AchievementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE44642A220BC17D00A1CB2E /* AchievementsViewController.swift */; };
+		BE44642D220BC32E00A1CB2E /* AchievementsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE44642C220BC32E00A1CB2E /* AchievementsPresenter.swift */; };
+		BE44642F220BC38800A1CB2E /* AchievementsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE44642E220BC38800A1CB2E /* AchievementsInteractor.swift */; };
+		BE446431220BC3A600A1CB2E /* AchievementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE446430220BC3A600A1CB2E /* AchievementTableViewCell.swift */; };
+		BE446434220BCA4A00A1CB2E /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE446433220BCA4A00A1CB2E /* APIResponse.swift */; };
+		BE446436220BF32F00A1CB2E /* ShadowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE446435220BF32F00A1CB2E /* ShadowCardView.swift */; };
+		BE446438220BF4D900A1CB2E /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE446437220BF4D900A1CB2E /* ProgressBarView.swift */; };
+		BE44643A220BF94800A1CB2E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE446439220BF94800A1CB2E /* Theme.swift */; };
+		BE44643C220C02AE00A1CB2E /* CenteredCircleLevelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE44643B220C02AE00A1CB2E /* CenteredCircleLevelLabel.swift */; };
+		BE44643E220C0AEC00A1CB2E /* AchievementsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE44643D220C0AEC00A1CB2E /* AchievementsNavigationController.swift */; };
+		BE4ADC472210C01E00E07B23 /* STSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4ADC462210C01E00E07B23 /* STSessionTests.swift */; };
+		BE4ADC4D2210D04300E07B23 /* AchievementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4ADC4C2210D04300E07B23 /* AchievementTests.swift */; };
+		BE4ADC4F2210D21E00E07B23 /* AchievementsTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4ADC4E2210D21E00E07B23 /* AchievementsTestHelpers.swift */; };
+		BE4ADC512210D5AE00E07B23 /* AchievementsViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4ADC502210D5AE00E07B23 /* AchievementsViewTests.swift */; };
+		BE4ADC532210D5BB00E07B23 /* AchievementsWireframeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4ADC522210D5BB00E07B23 /* AchievementsWireframeTests.swift */; };
+		BE4ADC562210DBFD00E07B23 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BE4ADC552210DBFD00E07B23 /* Podfile */; };
+		D3A9ED192590148A98F04927 /* Pods_StashCoach.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EB0E7FCEDFC30F7ACECAB6 /* Pods_StashCoach.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +59,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C72E03D774981A49410899C /* Pods_StashCoachTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StashCoachTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD8828DCD6FF2B2205712FF /* Pods-StashCoachTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StashCoachTests.release.xcconfig"; path = "Target Support Files/Pods-StashCoachTests/Pods-StashCoachTests.release.xcconfig"; sourceTree = "<group>"; };
+		91EB0E7FCEDFC30F7ACECAB6 /* Pods_StashCoach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StashCoach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4D6BD8B7E84514E6CD9BBC /* Pods-StashCoachTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StashCoachTests.debug.xcconfig"; path = "Target Support Files/Pods-StashCoachTests/Pods-StashCoachTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2F1824514B7CC46619EF911 /* Pods-StashCoach.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StashCoach.debug.xcconfig"; path = "Target Support Files/Pods-StashCoach/Pods-StashCoach.debug.xcconfig"; sourceTree = "<group>"; };
+		BE3732EA2210F7D2001505A2 /* achievements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = achievements.json; sourceTree = "<group>"; };
+		BE3732EC22110DF8001505A2 /* UnfinishedFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnfinishedFeatureViewController.swift; sourceTree = "<group>"; };
+		BE3732F522111BDD001505A2 /* AchievementsInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsInteractorTests.swift; sourceTree = "<group>"; };
+		BE3732F822111E02001505A2 /* AchievementsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsPresenterTests.swift; sourceTree = "<group>"; };
+		BE3732FC22112A89001505A2 /* UIImage+ColorGen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ColorGen.swift"; sourceTree = "<group>"; };
+		BE37330322113526001505A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BE4463EB220A5C9000A1CB2E /* StashCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StashCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4463EE220A5C9000A1CB2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE4463F0220A5C9000A1CB2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE4463F3220A5C9000A1CB2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE4463F5220A5C9100A1CB2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE4463F8220A5C9100A1CB2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE4463FA220A5C9100A1CB2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE4463FF220A5C9100A1CB2E /* StashCoachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StashCoachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE446403220A5C9100A1CB2E /* StashCoachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StashCoachTests.swift; sourceTree = "<group>"; };
 		BE446405220A5C9100A1CB2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE44640F220A601500A1CB2E /* STSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STSession.swift; sourceTree = "<group>"; };
+		BE446411220A606700A1CB2E /* STSession+URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "STSession+URLSession.swift"; sourceTree = "<group>"; };
+		BE446413220A620900A1CB2E /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		BE446415220A7D2A00A1CB2E /* ResponseProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseProcessor.swift; sourceTree = "<group>"; };
+		BE446417220A7E2800A1CB2E /* FileSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSession.swift; sourceTree = "<group>"; };
+		BE44641C220A80A000A1CB2E /* RequestBuilder+Achievements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RequestBuilder+Achievements.swift"; sourceTree = "<group>"; };
+		BE44641E220A81D900A1CB2E /* AchievementsResponseProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsResponseProcessor.swift; sourceTree = "<group>"; };
+		BE446420220A8E5F00A1CB2E /* RequestBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilderTests.swift; sourceTree = "<group>"; };
+		BE446424220A922A00A1CB2E /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		BE446426220B193400A1CB2E /* AchievementResponseProcessorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementResponseProcessorTests.swift; sourceTree = "<group>"; };
+		BE446428220BC01100A1CB2E /* AchievementsWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsWireframe.swift; sourceTree = "<group>"; };
+		BE44642A220BC17D00A1CB2E /* AchievementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsViewController.swift; sourceTree = "<group>"; };
+		BE44642C220BC32E00A1CB2E /* AchievementsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsPresenter.swift; sourceTree = "<group>"; };
+		BE44642E220BC38800A1CB2E /* AchievementsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsInteractor.swift; sourceTree = "<group>"; };
+		BE446430220BC3A600A1CB2E /* AchievementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementTableViewCell.swift; sourceTree = "<group>"; };
+		BE446433220BCA4A00A1CB2E /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		BE446435220BF32F00A1CB2E /* ShadowCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowCardView.swift; sourceTree = "<group>"; };
+		BE446437220BF4D900A1CB2E /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		BE446439220BF94800A1CB2E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BE44643B220C02AE00A1CB2E /* CenteredCircleLevelLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredCircleLevelLabel.swift; sourceTree = "<group>"; };
+		BE44643D220C0AEC00A1CB2E /* AchievementsNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsNavigationController.swift; sourceTree = "<group>"; };
+		BE4ADC462210C01E00E07B23 /* STSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STSessionTests.swift; sourceTree = "<group>"; };
+		BE4ADC4C2210D04300E07B23 /* AchievementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementTests.swift; sourceTree = "<group>"; };
+		BE4ADC4E2210D21E00E07B23 /* AchievementsTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsTestHelpers.swift; sourceTree = "<group>"; };
+		BE4ADC502210D5AE00E07B23 /* AchievementsViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsViewTests.swift; sourceTree = "<group>"; };
+		BE4ADC522210D5BB00E07B23 /* AchievementsWireframeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsWireframeTests.swift; sourceTree = "<group>"; };
+		BE4ADC552210DBFD00E07B23 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		F0F31E721053625BF469558C /* Pods-StashCoach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StashCoach.release.xcconfig"; path = "Target Support Files/Pods-StashCoach/Pods-StashCoach.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A9ED192590148A98F04927 /* Pods_StashCoach.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +120,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6632C13DD64B987D99781B73 /* Pods_StashCoachTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86BA7E542A84EAC6D395D7EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2F1824514B7CC46619EF911 /* Pods-StashCoach.debug.xcconfig */,
+				F0F31E721053625BF469558C /* Pods-StashCoach.release.xcconfig */,
+				9B4D6BD8B7E84514E6CD9BBC /* Pods-StashCoachTests.debug.xcconfig */,
+				6CD8828DCD6FF2B2205712FF /* Pods-StashCoachTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3269A3298ED6B4A43C67F42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91EB0E7FCEDFC30F7ACECAB6 /* Pods_StashCoach.framework */,
+				2C72E03D774981A49410899C /* Pods_StashCoachTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE37330122113501001505A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE3732EA2210F7D2001505A2 /* achievements.json */,
+				BE37330422113526001505A2 /* Localizable.strings */,
+				BE4463F7220A5C9100A1CB2E /* LaunchScreen.storyboard */,
+				BE4463F5220A5C9100A1CB2E /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		BE4463E2220A5C9000A1CB2E = {
 			isa = PBXGroup;
 			children = (
 				BE4463ED220A5C9000A1CB2E /* StashCoach */,
 				BE446402220A5C9100A1CB2E /* StashCoachTests */,
 				BE4463EC220A5C9000A1CB2E /* Products */,
+				86BA7E542A84EAC6D395D7EE /* Pods */,
+				B3269A3298ED6B4A43C67F42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +181,14 @@
 		BE4463ED220A5C9000A1CB2E /* StashCoach */ = {
 			isa = PBXGroup;
 			children = (
+				BE4ADC542210DBEE00E07B23 /* Project Metadata */,
+				BE37330122113501001505A2 /* Resources */,
+				BE44640E220A5F9700A1CB2E /* Networking */,
+				BE44641B220A807C00A1CB2E /* Achievements */,
+				BE3732EC22110DF8001505A2 /* UnfinishedFeatureViewController.swift */,
 				BE4463EE220A5C9000A1CB2E /* AppDelegate.swift */,
-				BE4463F0220A5C9000A1CB2E /* ViewController.swift */,
-				BE4463F2220A5C9000A1CB2E /* Main.storyboard */,
-				BE4463F5220A5C9100A1CB2E /* Assets.xcassets */,
-				BE4463F7220A5C9100A1CB2E /* LaunchScreen.storyboard */,
-				BE4463FA220A5C9100A1CB2E /* Info.plist */,
+				BE446439220BF94800A1CB2E /* Theme.swift */,
+				BE3732FC22112A89001505A2 /* UIImage+ColorGen.swift */,
 			);
 			path = StashCoach;
 			sourceTree = "<group>";
@@ -90,10 +196,83 @@
 		BE446402220A5C9100A1CB2E /* StashCoachTests */ = {
 			isa = PBXGroup;
 			children = (
-				BE446403220A5C9100A1CB2E /* StashCoachTests.swift */,
 				BE446405220A5C9100A1CB2E /* Info.plist */,
+				BE4ADC482210C02600E07B23 /* Networking */,
+				BE4ADC4B2210D03100E07B23 /* Achievements */,
 			);
 			path = StashCoachTests;
+			sourceTree = "<group>";
+		};
+		BE44640E220A5F9700A1CB2E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BE44640F220A601500A1CB2E /* STSession.swift */,
+				BE446411220A606700A1CB2E /* STSession+URLSession.swift */,
+				BE446417220A7E2800A1CB2E /* FileSession.swift */,
+				BE446413220A620900A1CB2E /* RequestBuilder.swift */,
+				BE446415220A7D2A00A1CB2E /* ResponseProcessor.swift */,
+				BE446433220BCA4A00A1CB2E /* APIResponse.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BE44641B220A807C00A1CB2E /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				BE44641C220A80A000A1CB2E /* RequestBuilder+Achievements.swift */,
+				BE44641E220A81D900A1CB2E /* AchievementsResponseProcessor.swift */,
+				BE446424220A922A00A1CB2E /* Achievement.swift */,
+				BE446428220BC01100A1CB2E /* AchievementsWireframe.swift */,
+				BE44642C220BC32E00A1CB2E /* AchievementsPresenter.swift */,
+				BE44642E220BC38800A1CB2E /* AchievementsInteractor.swift */,
+				BE446432220BC3AC00A1CB2E /* View */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		BE446432220BC3AC00A1CB2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE44642A220BC17D00A1CB2E /* AchievementsViewController.swift */,
+				BE446430220BC3A600A1CB2E /* AchievementTableViewCell.swift */,
+				BE44643B220C02AE00A1CB2E /* CenteredCircleLevelLabel.swift */,
+				BE446435220BF32F00A1CB2E /* ShadowCardView.swift */,
+				BE446437220BF4D900A1CB2E /* ProgressBarView.swift */,
+				BE44643D220C0AEC00A1CB2E /* AchievementsNavigationController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE4ADC482210C02600E07B23 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BE4ADC462210C01E00E07B23 /* STSessionTests.swift */,
+				BE446420220A8E5F00A1CB2E /* RequestBuilderTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BE4ADC4B2210D03100E07B23 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				BE4ADC4E2210D21E00E07B23 /* AchievementsTestHelpers.swift */,
+				BE446426220B193400A1CB2E /* AchievementResponseProcessorTests.swift */,
+				BE4ADC4C2210D04300E07B23 /* AchievementTests.swift */,
+				BE4ADC522210D5BB00E07B23 /* AchievementsWireframeTests.swift */,
+				BE3732F522111BDD001505A2 /* AchievementsInteractorTests.swift */,
+				BE4ADC502210D5AE00E07B23 /* AchievementsViewTests.swift */,
+				BE3732F822111E02001505A2 /* AchievementsPresenterTests.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		BE4ADC542210DBEE00E07B23 /* Project Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				BE4463FA220A5C9100A1CB2E /* Info.plist */,
+				BE4ADC552210DBFD00E07B23 /* Podfile */,
+			);
+			name = "Project Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +282,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE446408220A5C9100A1CB2E /* Build configuration list for PBXNativeTarget "StashCoach" */;
 			buildPhases = (
+				4946A4C2B4D5FC7182AFC536 /* [CP] Check Pods Manifest.lock */,
 				BE4463E7220A5C9000A1CB2E /* Sources */,
 				BE4463E8220A5C9000A1CB2E /* Frameworks */,
 				BE4463E9220A5C9000A1CB2E /* Resources */,
+				FFF3A2C1DA78EE5A59C85F3F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE44640B220A5C9100A1CB2E /* Build configuration list for PBXNativeTarget "StashCoachTests" */;
 			buildPhases = (
+				DCF49E4797F7B84A8635AC34 /* [CP] Check Pods Manifest.lock */,
 				BE4463FB220A5C9100A1CB2E /* Sources */,
 				BE4463FC220A5C9100A1CB2E /* Frameworks */,
 				BE4463FD220A5C9100A1CB2E /* Resources */,
+				810A985F1349D9F5E9261A68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,9 +360,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE37330222113526001505A2 /* Localizable.strings in Resources */,
 				BE4463F9220A5C9100A1CB2E /* LaunchScreen.storyboard in Resources */,
+				BE3732EB2210F7D2001505A2 /* achievements.json in Resources */,
+				BE4ADC562210DBFD00E07B23 /* Podfile in Resources */,
 				BE4463F6220A5C9100A1CB2E /* Assets.xcassets in Resources */,
-				BE4463F4220A5C9000A1CB2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,18 +372,130 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3732F722111DAC001505A2 /* achievements.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4946A4C2B4D5FC7182AFC536 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StashCoach-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810A985F1349D9F5E9261A68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StashCoachTests/Pods-StashCoachTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StashCoachTests/Pods-StashCoachTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF49E4797F7B84A8635AC34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StashCoachTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFF3A2C1DA78EE5A59C85F3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StashCoach/Pods-StashCoach-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StashCoach/Pods-StashCoach-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE4463E7220A5C9000A1CB2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE4463F1220A5C9000A1CB2E /* ViewController.swift in Sources */,
 				BE4463EF220A5C9000A1CB2E /* AppDelegate.swift in Sources */,
+				BE44641F220A81D900A1CB2E /* AchievementsResponseProcessor.swift in Sources */,
+				BE446412220A606700A1CB2E /* STSession+URLSession.swift in Sources */,
+				BE446431220BC3A600A1CB2E /* AchievementTableViewCell.swift in Sources */,
+				BE44641D220A80A000A1CB2E /* RequestBuilder+Achievements.swift in Sources */,
+				BE446418220A7E2800A1CB2E /* FileSession.swift in Sources */,
+				BE446434220BCA4A00A1CB2E /* APIResponse.swift in Sources */,
+				BE446416220A7D2A00A1CB2E /* ResponseProcessor.swift in Sources */,
+				BE44642D220BC32E00A1CB2E /* AchievementsPresenter.swift in Sources */,
+				BE44643A220BF94800A1CB2E /* Theme.swift in Sources */,
+				BE446429220BC01100A1CB2E /* AchievementsWireframe.swift in Sources */,
+				BE446436220BF32F00A1CB2E /* ShadowCardView.swift in Sources */,
+				BE446410220A601500A1CB2E /* STSession.swift in Sources */,
+				BE44643E220C0AEC00A1CB2E /* AchievementsNavigationController.swift in Sources */,
+				BE446414220A620900A1CB2E /* RequestBuilder.swift in Sources */,
+				BE44642B220BC17D00A1CB2E /* AchievementsViewController.swift in Sources */,
+				BE3732FD22112A89001505A2 /* UIImage+ColorGen.swift in Sources */,
+				BE44642F220BC38800A1CB2E /* AchievementsInteractor.swift in Sources */,
+				BE446425220A922A00A1CB2E /* Achievement.swift in Sources */,
+				BE44643C220C02AE00A1CB2E /* CenteredCircleLevelLabel.swift in Sources */,
+				BE446438220BF4D900A1CB2E /* ProgressBarView.swift in Sources */,
+				BE3732ED22110DF8001505A2 /* UnfinishedFeatureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +503,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE446404220A5C9100A1CB2E /* StashCoachTests.swift in Sources */,
+				BE4ADC532210D5BB00E07B23 /* AchievementsWireframeTests.swift in Sources */,
+				BE4ADC472210C01E00E07B23 /* STSessionTests.swift in Sources */,
+				BE4ADC512210D5AE00E07B23 /* AchievementsViewTests.swift in Sources */,
+				BE3732F622111BDD001505A2 /* AchievementsInteractorTests.swift in Sources */,
+				BE4ADC4D2210D04300E07B23 /* AchievementTests.swift in Sources */,
+				BE446427220B193400A1CB2E /* AchievementResponseProcessorTests.swift in Sources */,
+				BE446421220A8E5F00A1CB2E /* RequestBuilderTests.swift in Sources */,
+				BE3732F922111E02001505A2 /* AchievementsPresenterTests.swift in Sources */,
+				BE4ADC4F2210D21E00E07B23 /* AchievementsTestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,12 +526,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BE4463F2220A5C9000A1CB2E /* Main.storyboard */ = {
+		BE37330422113526001505A2 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BE4463F3220A5C9000A1CB2E /* Base */,
+				BE37330322113526001505A2 /* en */,
 			);
-			name = Main.storyboard;
+			name = Localizable.strings;
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 		BE4463F7220A5C9100A1CB2E /* LaunchScreen.storyboard */ = {
@@ -244,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -305,6 +612,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -358,9 +666,11 @@
 		};
 		BE446409220A5C9100A1CB2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F1824514B7CC46619EF911 /* Pods-StashCoach.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8R679VUT3V;
 				INFOPLIST_FILE = StashCoach/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -375,9 +685,11 @@
 		};
 		BE44640A220A5C9100A1CB2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F31E721053625BF469558C /* Pods-StashCoach.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8R679VUT3V;
 				INFOPLIST_FILE = StashCoach/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -392,6 +704,7 @@
 		};
 		BE44640C220A5C9100A1CB2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4D6BD8B7E84514E6CD9BBC /* Pods-StashCoachTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,8 +715,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = sleepygarden.StashCoachTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StashCoach.app/StashCoach";
@@ -412,6 +727,7 @@
 		};
 		BE44640D220A5C9100A1CB2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD8828DCD6FF2B2205712FF /* Pods-StashCoachTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,6 +738,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = sleepygarden.StashCoachTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
